@@ -1,0 +1,326 @@
+ 
+ 
+ 
+ 
+Table of Contents 
+Introduction  2 
+Task A Explain the need for different computer network types and models  3 
+Task B Explain the characteristics and functions of network components  5 
+Task C Analyze the functions of different network components required to construct different network types  7 
+TaskD Evaluate different network models and their suitability to meet different client requirements 8 
+ 
+ 
+ 
+ 
+Introduction 
+ 
+As an employee of Nguyen Networking Limited the project to implement a networking environment 
+for an educational institute to connect  200 students 15 teachers 12 marketing and administration 
+staff 5 higher managers including the head of academics and the programme manager 3 computer 
+network administrators  needs an important emphasis on various network types and topologies in 
+order to establish a seamless and hassle free network environment As for this institute using LAN 
+and WLAN can be very helpful as LAN can connect more end devices in a building and WLAN is 
+helpful to integrate wireless on the go connection to the network As this network contains a 
+considerably huge amount of end users the bandwith required has to be high and may require star 
+topology  as star is much faster to intersect and nodes have an agreed decision on which the core is 
+The inclusion of a network system will increase the rate at which information is shared thus 
+increasing productivity In order to establish networks servers are crucial parts of the system as they 
+are required to store and process data at speedy rates enabling the procedure of the system to be 
+efficient From the various network models Usually P2P models are faster as the end devices are the 
+only devices required to run the networking tasks relinquishing the hassle of server queries and 
+protocols  which can slow down the process If the institution requires a less costly alternative  then 
+thin client can be a better alternative with its processing power taking place on remote servers  
+which reduces the cost of ownership and maintenance costs   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Task A Explain the need for different computer network types and models 
+What is a Network 
+ A collection of Computers which are interconnected as a result as a result multiple computers are 
+able to communicate with each other and are able to share their Resources Data Applications 
+ 
+To form a Network we need to consider several types 
+ 
+ LAN 
+ WLAN 
+ MAN 
+ WAN 
+ SAN 
+ 
+There are several characteristics of those Network Types 
+ 
+1 LANLocal Area Network  It is a relatively inexpensive Network type built with Hubs  
+Network Adapters and Ethernet Cables which can link up several PCs through a relaying 
+medium consisted of twisted pairs  coaxial cablesetc This Network Type introduces faster 
+data transfer speeds as it is included locally and has higher security LAN can be implemented 
+in a building or an office 
+ 
+ 
+2 MANMetropolitan Area Network  MAN has a higher coverage than LAN 
+As a result it can cover a larger Geographical Area by the help of different  
+LAN networks interconnecting through a Telephone exchange line Uses of MAN include 
+ 
+Government Agencies to connect to Citizens and Private Industries The most widely used 
+ 
+protocols in MAN are RS232Frame  RelayATMISDNOC3ADSLetc 
+3 WANWide Area Network  A WAN is more superior to a LAN network in range and is not 
+limited to a particular area  but rather spreads over a large Geographical area such as States or 
+Countries by the help of Telephone line Fibre optics or Satellite links Internet is an example of 
+the greatest WAN in the world and is often needed in the field of Government Business and 
+Education 
+ 
+ 
+ 
+ 
+4 SAN  The presentation of interconnected multiple pools of devices are known as SAN They 
+are used to access storage devices such as Disk Arrays and Tape Libraries etc such that it 
+would appear to be directly attached to the operating system 
+ 
+5 WLAN  A wire free network that connects numerous with the help of Wireless Communication 
+to form a LAN within a home  school computer laboratory  office building etc This allows 
+mobility while being connected to the network WLANs are based on IEEE 80211 also known 
+as WiFi can include a connection to the wider Internet through a gateway 
+There are several characteristics of those network types  
+ Intranet  An Intranet belongs to an Organization containing a private network deemed only 
+accessible by an Organizations Employees or members It is based on the Internet protocol such 
+as Transmission Control Protocol and Internet Protocol aimed to relay and resources among 
+the Organizations employees  providing the facility to work together or teleconferences Some 
+examples of Intranet are chats email andor blogs 
+ 
+ Extranet  Categorized as MAN WAN or other computer networks it is crucial for Extranet to 
+have an external connection rather than just a LAN It is only restricted to users who have login 
+credentials and can be used for information sharing An EXTRANET is the least level of 
+internetworking 
+ Internet  A global network of trillion of computers and other computer devices  which allows 
+us get almost any information and communicate to anyone else in the world 
+ Cloud  Servers that can be approached over the net software and databases that process on 
+those servers Files and applications can be run on any particular devices as   computing and 
+storage takes place in servers that are run from data centers instead of being run locally on the 
+user device 
+ 
+ 
+ 
+ 
+ 
+Network Models 
+ Peer to peer  A p2p network is said to take place between several computer systems that 
+communicate to each other over the net Direct file sharing occurs between two systems with the 
+ 
+ 
+ 
+ 
+exclusion of a Central server denoting that the computer systems involved in p2p networks 
+becomes a server and a client as well Common examples of p2p software programs are  
+LimeWire  Bearshareetc  
+ 
+ Client  Server  ClientServer network contains one central powerful computer recognized as a 
+server which works as a hub and is connected to multiple less capable personal computers or 
+workstations also known as clients Thus these clients can run programs and get data that are 
+stored on the server 
+ Thin Client  It contains no data processing power rather the power is given by the CPU 
+hardrive and memory of a different server For companies to implement Thin Client servers and 
+terminal server farms  can allow for lowered cost of ownership and reduced support 
+requirements  
+Task B Explain the characteristics and functions of network components 
+ 
+Computer Networks is formed my mustering several Electronical Devices which connect and interact 
+between each other for the existence of smooth transfer of data between individual devices  with the 
+exclusion of any hitch 
+ 
+ A Network Component is of two types  
+i Hardware Components 
+Ii Software Components 
+ 
+ 
+Hardware Components 
+ 
+Hardware Components can be put up into numerous elements 
+ 
+ End User Devices  Distinguishable by unique addresses  End User Devices canreinact being 
+both the transmitter and receiver  viceversa  in a network Some examples of End User 
+Devices are  PC  Mobile Phones  Tablets  Server etc 
+ 
+ 
+ 
+ 
+ 
+ Connectivity Devices  
+ 
+i Switch  A Networking Device that links various devices within a Network through Packet 
+Switching to receive and transmitforward data to the destination device rather than broadcasting 
+            Router  With the help of RJ45 ports Routers are connected to the LAN  and as a result can 
+connect the various End Devices present on the Network to the broadband internet connection 
+ 
+ 
+ii Hub  A device that connects multiple Ethernet Devices  thus forming a single Network segment 
+It is established by holding up several input or output devices  in order input at a single port is 
+available to each different posts 
+ 
+ Connection Media  
+ 
+The Computer Network is put in contact together with the help of  Coaxial Cable  Twisted Pair  
+Fibre Optic Cable  
+ 
+To connect Hardware components through IP address we need Network Interface Card NIC An 
+NIC card operates by changing the local IP address of the data sent by the End Device into a 
+globally known IP address and transmitting data to another recipient End Device The NIC card of 
+the End Device  again transforms the IP address of the received data from a globally known IP 
+into a locally known IP 
+ 
+ 
+ Software Components   
+ 
+i Network System Software  In order for a Network System Software to be formed an 
+OSOperating System needs to be installed both on the sender and recipient End Devices For 
+Example  Windows 10  Mac  Linux 
+ii Network Applications  A Network Application is run by one host  to provide communication to 
+to another application ran by different hosts These can be formed through different Databases 
+ Oracle Microsoft SQL Server Web based application  Facebook Twitter Gmail etc 
+ 
+ 
+ 
+ 
+ 
+ 
+Task C Analyze the functions of different network components required to 
+construct different network types  
+ 
+Networks can be formed in several types  LAN MAN WAN 
+ LAN 
+ 
+ 
+A network that links up computers within a limited area such as library  schools  
+officeHardware components of LAN are consisted of End devices such as Pcworskations and 
+servers LAN is provided through cabling and connectors  eg Coaxial cable and BNC connector  
+Unshielded twisted pair UTP 
+ 
+And RJ45 connectors The devices are connected across the network using devices such as Hubs 
+Bridge LAN switch and router repeater A crucial part of the hardware components is a NIC card 
+Network Interface Card which allows the IP address of the sent data to be converted from local to 
+a more recognized global IP for easier transfer of data 
+Software components of LAN include NIC software drivers Both the server and clients need to have 
+Network Operating System such as Novell Netware 41 client or Microsoft WIndows 95  Mac 
+OS Also Network Protocol Software TCPIPTransmission Control ProtocolInternet Protocol TO 
+utilize the network many application software can be used Gmail  Internet Web Browser Database 
+Software  Networking Software 
+ MAN 
+                   MAN is a network formed by joining multiple LAN networks to cover a larger 
+geographic area It makes use of the devices already present in a LAN netwrok As a result the MAN 
+has a higher range compared to LAN  It is mostly use in Government OrganizationsMAN  is 
+transmitted through Modem and WireCable 
+ WAN 
+ 
+ 
+WAN requires also multiple LAN connections to work together in order to work End devices are 
+connected through the routers to the network Lan provides the connection by the use of cables eg 
+Coaxial cable and BNC connector  Unshielded twisted pair UTP and RJ45 connectorsNetwork 
+Interface Card is also contained in the network which disguises the local 
+IP address into a globally recognised IP address and creates a default gateway for the router to 
+broadcast the data The data is sent through the medium of Radio Transmission  
+ 
+ 
+ 
+ 
+ 
+TaskD Evaluate different network models and their suitability to meet 
+different client requirements 
+ 
+ Peertopeer  A server excluded server solution that enables communication of several network 
+devices and easier sharing of resources displaying a distributed architecture All devices 
+included in a P2P network are identified as peers  where each pair has the similar equality 
+which induces similar rights and duties as each and every other peer No peer is superior and 
+resources are shared with  no primary central device of a network server is present Such 
+shared resources contain  processor usage disk storage capacity or network bandwidth  
+ 
+The goal of a P2P  network model is to establish a seamless environment and enables different 
+computers and devices to work together in order to provide specific requests or tasks As P2P 
+networks are capable of deploying tasks  such as processing power network bandwidth or disk 
+storage space they are best suited for file sharing as they allow simultaneous sharing and 
+receiving of files 
+ 
+An example of a P2P  network is BitTorrent or any other torrent platform The platform is 
+ 
+comprised of multiple end devices such as PC workstations etc The file is fetched in several 
+ 
+pieces to ensure ease of access and speed  at the same time the parts of the files that are already 
+ 
+downloaded on your computer is automatically seeded in other words the PC starts sharing the 
+ 
+bits of data to other PCs in the network establishing a seamless process resembling a two way 
+ 
+street 
+ 
+ Clientserver Model  Clientserver model is a recount of the way in which servers share 
+resources and serve one or more clients Majority servers deploy a onetomany relationship for 
+clients providing multiple resources to a clients at one time Examples of servers can be web 
+servers mail servers and file servers whereas client devices can be desktop computers laptops 
+tablets and smart phones  
+  
+Client servers can be used differently but it is distinguished from peertopeer model by the 
+ 
+inclusion of a central server whereas in P2P each individual machine can act as both a client as 
+ 
+well as the server  
+An example for the use of Clientserver Model  is when a Bank customer uses Online Banking 
+ 
+to access hisher data A request is initiated through a web browser towards the banks server To 
+ 
+get back data the server accesses the database server which contains the credentials of the 
+ 
+ 
+ 
+ 
+ 
+customers login information  as a client A process brought forward by the business logic 
+ 
+established by the bank run by an application sever interprets the returned data and displays it in 
+ 
+the web browser All these steps are carried out exchanging requests to a computer for placing  
+ 
+processing requests and returning data 
+ Thin Client  A server or a server farm is the main source of providing processing power to the 
+unlike from a desktop consisted of CPU memory and hard drive Hence a Thin Client has no 
+processing power of its ownThin Client and Terminal Servers have advantages such as 
+producing significantly lower cost of ownershipTCO with reduced support requirements 
+ 
+An example of Thin Client is Wyse thin client which enables for Windows application to run on 
+ 
+the cloud reducing management costs and increase security as it is a locked down environment 
+A web browser can also act as a thin client  When an applet is downloaded with the inclusion of 
+ 
+plugins or virtual machines as a part of the Web application  here the browser acts as a thin 
+ 
+client as it is displaying a processing of data without any work done by the machine  rather the 
+ 
+processing takes place in a remote server or server firm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

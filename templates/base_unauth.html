@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Plagiarism Checker</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="{% static 'dashboard/css/font-face.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/font-awesome-4.7/css/font-awesome.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/font-awesome-5/css/fontawesome-all.min.css' %}" rel="stylesheet"
+          media="all">
+    <link href="{% static 'dashboard/vendor/mdi-font/css/material-design-iconic-font.min.css' %}" rel="stylesheet"
+          media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="{% static 'dashboard/vendor/bootstrap-4.1/bootstrap.min.css' %}" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="{% static 'dashboard/vendor/animsition/animsition.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css' %}"
+          rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/wow/animate.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/css-hamburgers/hamburgers.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/slick/slick.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/select2/select2.min.css' %}" rel="stylesheet" media="all">
+    <link href="{% static 'dashboard/vendor/perfect-scrollbar/perfect-scrollbar.css' %}" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="{% static 'dashboard/css/theme.css' %}" rel="stylesheet" media="all">
+    <!--    <link href="{% static 'css/profile.css' %}" rel="stylesheet" media="all">-->
+
+
+
+
+</head>
+
+<body class="">
+<div class="page-wrapper">
+    <!-- HEADER MOBILE-->
+    <header class="header-mobile d-block d-lg-none">
+        <div class="header-mobile__bar">
+            <div class="container-fluid">
+                <div class="header-mobile-inner">
+                    <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- END HEADER MOBILE-->
+
+    <!-- MENU SIDEBAR-->
+
+    <!-- END MENU SIDEBAR-->
+
+    <!-- PAGE CONTAINER-->
+    <div class="">
+
+        <div class="logo" style="width: 335px;margin-left: 525px;margin-top: 4px">
+            <a href="" class="text-center">
+                <img src="{% static 'dashboard/images/logo.png' %}" alt="Cool Admin"/>
+            </a>
+        </div>
+        <!-- HEADER DESKTOP-->
+        <!-- HEADER DESKTOP-->
+        <div class="main-content" style="padding-top: 50px">
+            <div class="section__content section__content--p30">
+                <div class="container-fluid">
+                    {% if messages %}
+                        <ul class="messages alert alert-danger">
+                            {% for message in messages %}
+                                <li
+                                        {% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                                    Last Action: {{ message }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </div>
+
+
+        <!--        Old Body Sections -->
+        <!--        <div id="content ">-->
+        <!--            <div class="main-content">-->
+        <!--                block content here-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        ENd of Old Body Sections -->
+
+
+        <!-- END PAGE CONTAINER-->
+    </div>
+
+</div>
+
+<!-- Jquery JS-->
+<script src="{% static 'dashboard/vendor/jquery-3.2.1.min.js' %}"></script>
+<!-- Bootstrap JS-->
+<script src="{% static 'dashboard/vendor/bootstrap-4.1/popper.min.js' %}"></script>
+<script src="{% static 'dashboard/vendor/bootstrap-4.1/bootstrap.min.js' %}"></script>
+<!-- Vendor JS       -->
+<script src="{% static 'dashboard/vendor/slick/slick.min.js' %}">
+</script>
+<script src="{% static 'dashboard/vendor/wow/wow.min.js' %}"></script>
+<script src="{% static 'dashboard/vendor/animsition/animsition.min.js' %}"></script>
+<script src="{% static 'dashboard/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js' %}">
+</script>
+<script src="{% static 'dashboard/vendor/counter-up/jquery.waypoints.min.js' %}"></script>
+<script src="{% static 'dashboard/vendor/counter-up/jquery.counterup.min.js' %}">
+</script>
+<script src="{% static 'dashboard/vendor/circle-progress/circle-progress.min.js' %}"></script>
+<script src="{% static 'dashboard/vendor/perfect-scrollbar/perfect-scrollbar.js' %}"></script>
+<script src="{% static 'dashboard/vendor/chartjs/Chart.bundle.min.js' %}"></script>
+<script src="{% static 'dashboard/vendor/select2/select2.min.js' %}">
+</script>
+
+<!-- Main JS-->
+<!--<script src="{% static 'dashboard/js/main.js' %}"></script>-->
+{% if messages %}
+    <script>
+        {% for message in messages %}
+
+            var str = "";
+            var val = "{{message}}";
+            if (val.includes("/")) {
+                str = str + "/static" + "{{ message }}";
+                //$("#download-link").attr("href", str);
+                document.getElementById("download-link").href = str;
+                document.getElementById("download-link").classList.remove("disabled");
+                // alert(str);
+            }
+        {% endfor %}
+    </script>
+{% endif %}
+</body>
+
+</html>
+<!-- end document-->
